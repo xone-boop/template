@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+venv/
+env/
+*.egg-info/
+package-lock.json
+yarn.lock
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+.nuxt/
+.next/
+.output/
+*.pyc
+__pycache__/
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+.env*.local
+
+# MCP
+.mcp/

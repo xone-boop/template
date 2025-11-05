@@ -1,0 +1,18 @@
+{
+  "name": "development-workspace",
+  "version": "1.0.0",
+  "description": "Multi-project development workspace with MCP servers",
+  "private": true,
+  "workspaces": [
+    "projects/*"
+  ],
+  "scripts": {
+    "dev": "echo 'Select a project to run'",
+    "install-mcp": "npm run install-mcp-servers",
+    "install-mcp-servers": "npm install -g @modelcontextprotocol/server-memory @modelcontextprotocol/server-playwright"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "vite": "^5.0.0"
+  }
+}
