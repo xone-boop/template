@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "echo 'Select a project to run'",
     "install-mcp": "npm run install-mcp-servers",
-    "install-mcp-servers": "npm install -g @modelcontextprotocol/server-memory @modelcontextprotocol/server-playwright"
+    "install-mcp-servers": "npm install -g @modelcontextprotocol/server-memory @modelcontextprotocol/server-filesystem @modelcontextprotocol/server-sequential-thinking @playwright/mcp puppeteer-mcp-server"
   },
   "devDependencies": {
     "typescript": "^5.3.0",
