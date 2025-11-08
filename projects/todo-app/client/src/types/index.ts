@@ -1,9 +1,9 @@
-export interface User {
+export type User = {
   id: number;
   email: string;
 }
 
-export interface Todo {
+export type Todo = {
   id: number;
   userId: number;
   text: string;
@@ -12,7 +12,7 @@ export interface Todo {
   updatedAt: string;
 }
 
-export interface AuthResponse {
+export type AuthResponse = {
   message: string;
   token: string;
   user: User;

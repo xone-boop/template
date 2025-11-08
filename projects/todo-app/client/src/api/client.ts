@@ -1,4 +1,4 @@
-import { User, Todo, AuthResponse } from '../types';
+import type { User, Todo, AuthResponse } from '../types/index';
 
 const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000';
 
